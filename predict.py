@@ -3,8 +3,7 @@
 # Class:        ICS3U1-04
 # Description:  This text predictor along with a "machine learning" feature, lets you type entire paragraphs and at any given moment when the user hits enter, based on the user's previously entered words, the program will display the top three text predictions. The user can select and continue typing out their sentence until they hit enter twice for the final sentence to be printed out. Based on the user's typing habits, the text predictor adapts and expands and learns which words are typed more, to be stored back into the file for later use.
 
-#For Mac, the file will only open if I write out the path to the file that's on my computer. It may show an error on a different computer but it just needs to be replaced.
-dictFile = open("/Users/swayam/Downloads/dict.txt", "r")
+dictFile = open("/Users/*enteryourname*/Downloads/dict.txt", "r") #change format if using windows
 
 #Setting up blanklists to store the words from the textfile in various formats for various purposes.
 fileWords = []
